@@ -1,65 +1,56 @@
-.task {
-    padding: 20px;
+.tasks {
+    list-style: none;
     margin: 0;
-    list-style-type: none;
-    font-size: larger;
+    padding: 10px;
+    font-size: large;
 }
 
-.task__item {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
+.tasks__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
     grid-gap: 10px;
+    border-bottom: 1px solid rgb(245, 235, 235);
+    padding: 10px;
+    padding-left: 0;
 }
 
-.task__item--hidden {
+.tasks__item--hidden {
     display: none;
 }
 
-.form__input:focus {
-    border: 1px solid #000000;
-    border-radius: 2px;
+.tasks__content {
+    text-decoration: none;
 }
 
-.form__input {
-    border: 1px solid #ddd;
-    padding: 10px;
+.tasks__content--done {
+    text-decoration: line-through;
 }
 
-.task__item--lineThrough {
-    text-decoration-line: line-through;
-}
-
-.button__done {
-    color: #ffffff;
-    background-color: #008000;
-    margin: 5px;
-    padding: 0px;
+.tasks__button {
+    color: white;
+    border-style: none;
     width: 30px;
     height: 30px;
-    border: none;
     cursor: pointer;
-    transition: 0.3s;
 }
 
-.button__done:hover {
-    background-color: #008000a8;
+.tasks__button--toggleDone {
+    color: white;
+    background: green;
 }
 
-.button__remove {
-    color: #ffffff;
-    background-color: #ff0000;
-    margin: 5px;
-    padding: 0px;
-    width: 30px;
-    height: 30px;
-    border: none;
+.tasks__button--toggleDone:hover {
     cursor: pointer;
-    transition: 0.3s;
+    background: rgb(37, 167, 37);
 }
 
-.button__remove:hover {
-    background-color: #ff0000a8;
+.tasks__button--remove {
+    background-color: firebrick;
+    color: white;
+}
+
+.tasks__button--remove:hover {
+    cursor: pointer;
+    background-color: rgb(222, 69, 69);
 }

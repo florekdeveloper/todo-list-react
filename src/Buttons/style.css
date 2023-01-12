@@ -11,6 +11,13 @@
     transition: color 0.3s;
 }
 
+@media (max-width: 767px) {
+    .buttons__button {
+        flex-basis: 100%;
+        margin: 10px;
+    }
+}
+
 .buttons__button:hover {
     color: #008080dd;
 }
@@ -19,13 +26,3 @@
     color: #ccc;
 }
 
-@media (max-width: 767px) {
-    .section__header {
-        grid-template-columns: 1fr;
-    }
-
-    .buttons__button {
-        flex-basis: 100%;
-        margin: 10px;
-    }
-}
