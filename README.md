@@ -1,10 +1,10 @@
 # ToDo-List-React.js
 
-![Todo-list-react](https://github.com/florekdeveloper/todo-list-react/blob/cbf33f39aa0c4cc883483809d95cb6a5f36cbe43/public/Screenshot%20.png)
+![Todo-list-react](https://github.com/florekdeveloper/todo-list-react/blob/a58327c1f46eed5fd4fb1119f3bebb470961fcbf/public/Animation2.gif)
 
 # Description
 
-Welcome to my first Todo-list project in React.js without interactions
+Welcome to my Todo-list project in React.js 
 
 ## Demo
 
