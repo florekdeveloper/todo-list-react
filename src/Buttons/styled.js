@@ -21,7 +21,7 @@ export const Button = styled.button`
         color: #008080dd;
     }
 
-    &:disadled {
+    &:disabled {
         color: #ccc;
     }
 `;
