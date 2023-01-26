@@ -6,7 +6,6 @@ import Section from "./Section";
 import Container from "./Container";
 import Header from "./Header";
 import hello, { name } from "./utils/hello";
-import styled from "./styled-components";
 
 hello();
 console.log(name);
