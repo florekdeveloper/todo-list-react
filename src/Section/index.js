@@ -1,7 +1,7 @@
 import { Wrapper, Header, Title } from "./styled"
 
 const Section = ({ title, body, extraHeaderContent }) => (
-    <Wrapper className="section">
+    <Wrapper>
         <Header>
             <Title>{title}</Title>
             {extraHeaderContent}

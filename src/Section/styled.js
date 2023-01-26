@@ -17,8 +17,8 @@ export const Header = styled.header`
     align-items: center;
     padding: 20px;
 
-    @media(max-width 767px) {
-        grid-template-columns: 1fr;
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
     }
 `;
 
