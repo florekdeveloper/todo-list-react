@@ -20,6 +20,7 @@ https://florekdeveloper.github.io/todo-list-react/
 - @media queries
 - Immutability
 - React
+- React - Redux 
 
 ## Available Scripts
 
