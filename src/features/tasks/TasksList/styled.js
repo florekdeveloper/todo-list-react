@@ -3,8 +3,9 @@ import styled, { css } from "styled-components";
 export const List = styled.ul`
     list-style: none;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     font-size: large;
+    color: teal;
 `;
 
 export const Item = styled.li`
@@ -13,7 +14,7 @@ export const Item = styled.li`
     align-items: center;
     grid-gap: 10px;
     border-bottom: 1px solid rgb(245, 235, 235);
-    padding: 10px;
+    padding: 12px;
     padding-left: 0;
 
     ${({hidden}) => hidden && css`

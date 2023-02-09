@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 
 export const Button = styled.button`
     background: transparent;
-    color: #008080;
+    color: teal;
     border: none;
     margin: 0 0 0 20px;
     transition: color 0.3s;
