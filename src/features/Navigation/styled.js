@@ -7,7 +7,7 @@ export const List = styled.ul`
   display: flex;
   justify-content: center;
   margin: 0;
-  padding: 12px;
+  padding: 20px;
   list-style: none;
   background-color: ${({ theme }) => theme.color.teal};
 `;
@@ -18,6 +18,7 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
     color: ${({ theme }) => theme.color.white};
     text-decoration: none;
     margin: 0 20px;
+    font-size: 20px;
     
   &.${activeClassName} {
     font-weight: bold;
