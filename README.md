@@ -1,6 +1,6 @@
 # ToDo-List-React.js
 
-![Todo-list-react](https://github.com/florekdeveloper/todo-list-react/blob/a58327c1f46eed5fd4fb1119f3bebb470961fcbf/public/Animation2.gif)
+![Todo-list-react](https://github.com/florekdeveloper/todo-list-react/blob/5126ad27f9287d60ef1cbc5c5396877d16275874/public/AnimationL.gif)
 
 # Description
 
@@ -19,8 +19,12 @@ https://florekdeveloper.github.io/todo-list-react/
 - ES6+ features
 - @media queries
 - Immutability
+- Webpack
 - React
-- React - Redux 
+- React router
+- Redux-Saga
+- Redux-Toolkit
+- Styled-Components 
 
 ## Available Scripts
 
