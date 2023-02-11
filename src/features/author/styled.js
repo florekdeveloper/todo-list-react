@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: 5px;
+  padding: 10px;
   display: flex;
   align-items: center;
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
