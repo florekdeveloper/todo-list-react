@@ -1,7 +1,7 @@
 import { HashRouter, Switch, Route, Redirect } from 'react-router-dom';
 import TasksPage from './features/tasks/TasksPage';
 import TaskPage from './features/tasks/TaskPage';
-import Author from './features/author/Author';
+import Author from './features/author';
 import Navigation from './features/Navigation';
 import { toAuthor, toTask, toTasks} from './routes';
  
@@ -26,4 +26,3 @@ const App = () => (
   );
   
   export default App;
-  
