@@ -18,7 +18,7 @@ const App = () => (
         <Route path={toAuthor()}>
           <Author />
         </Route>
-        <Route path="/">
+        <Route>
           <Redirect to={toTasks()} />
         </Route>
       </Switch>
