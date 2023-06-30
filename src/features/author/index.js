@@ -23,7 +23,7 @@ const Author = () => {
                                     Mam na imię Marcin i pochodze z Poznania. Wiele lat mieszkałem w Anglii, zajmowałem się wieloma rzeczami
                                     od inżynierii poprzez zarządzanie i swoją działalność. Programowanie zawsze mnie interesowało ale nigdy nic w tym kierunku nie zrobiłem.
                                     <br /><br />W zeszłym roku zamieszkałem w Polsce i zapisałem się na kurs programowania w Szkole internetowej <strong>YouCode</strong>.
-                                    <br /><br />Ta aplikacja jest elementem tego kursu, sporo nauki ale satysfakcja gwarantowana 😃
+                                    <br /><br />Ta aplikacja jest elementem tego kursu 😃
                         </Paragraph>
                     </Wrapper>
                 }
